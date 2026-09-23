@@ -31,11 +31,11 @@ Open & requestable egocentric human datasets — verified against real data repo
 
 | 指标 | 数量 |
 |---|---|
-| 收录（有真实数据仓库/明确申请入口） | **70** |
-| HuggingFace 公开可直接下载 (`open`) | **40** |
-| HuggingFace 需申请 (`gated`) | **16** |
-| 官网申请 / DUA (`request`) | **4** |
-| 官方 GitHub / 数据门户（可下载） | **10** |
+| 收录（有真实数据仓库/明确申请入口） | **64** |
+| └ HuggingFace 公开可直接下载 (`open`) | **36** |
+| └ HuggingFace 需申请 (`gated`) | **13** |
+| └ 官方 GitHub / 数据门户 | **11** |
+| └ 官网申请 / DUA (`request`) | **4** |
 | 其中**双目 / 立体 / 头+腕** | **5** |
 | 已剔除（无数据仓库 / 仅营销） | 见文末 |
 
