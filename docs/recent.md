@@ -5,13 +5,15 @@
 
 ## A. 最新综述 / 评论（Review）
 
+> ⚠️ 分类提示：`2609.19793` 与 `2608.24877` 是**系统/硬件综述（智能眼镜）**，**不是 Ego 数据综述**；真正的 Ego 数据综述是 `2607.24744`、`2606.00054`、`2604.27621`、`2503.15275`、`2608.18671`。
+
 | 日期 | arXiv | 标题 | 类型 |
 |---|---|---|---|
-| 2026-09-17 | 2609.19793 | AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization | 智能眼镜综述 |
-| 2026-08-25 | 2608.24877 | From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms | 第一人称平台综述 |
-| 2026-08-19 | 2608.18671 | Vision-Language Models for Egocentric Video: From HOI to Embodied AI | Ego-VLM 综述 |
+| 2026-09-17 | 2609.19793 | AI Smart Glasses for Wearable Intelligence | 系统/硬件综述（非数据） |
+| 2026-08-25 | 2608.24877 | From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms | 系统/硬件综述（非数据） |
+| 2026-08-19 | 2608.18671 | Vision-Language Models for Egocentric Video: From HOI to Embodied AI | Ego-VLM 综述（含数据） |
 | 2026-08-08 | 2607.24744 | Data Pyramid for Embodied Manipulation: A Survey | **具身数据中心综述** |
-| 2026-05-12 | 2605.12090 | World Action Models: The Next Frontier in Embodied AI | 世界动作模型综述 |
+| 2026-05-12 | 2605.12090 | World Action Models: The Next Frontier in Embodied AI | 模型综述 |
 | 2026-04-08 | 2604.27621 | Robot Learning from Human Videos: A Survey | 人类视频→机器人综述 |
 | 2026-03-xx | 2606.00054 | From Human Videos to Robot Manipulation: Scalable VLA with Human-Centric Data | 人类数据→VLA 综述 |
 
