@@ -47,6 +47,7 @@ Verified open & requestable egocentric human datasets, with precise release date
 - 详见 **[docs/analysis.md](docs/analysis.md)**（含小时数、质量榜、综述分析、生态位）与 `data/quality-ranking.csv`。
 - 每个数据集的**论文/项目页/官方博客**见 **[docs/sources.md](docs/sources.md)** 与 `data/sources.csv`（面向 gated 数据“仅凭报告分析”）。
 - 综述论文框架（研究问题/六维分析/现有综述缺口/章节结构）见 **[docs/survey-outline.md](docs/survey-outline.md)**。
+- 最近文章（按提交日期倒序，检索至 2026-09-23）见 **[docs/recent.md](docs/recent.md)**。
 
 ---
 
