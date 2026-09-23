@@ -46,6 +46,7 @@ Verified open & requestable egocentric human datasets, with precise release date
 - **质量**：按「规模/模态/标注/视角/开放度/采用度」6 维评分（0–100），最高仅 63.9（光轮 EgoSuite），说明**没有全能数据集**。
 - 详见 **[docs/analysis.md](docs/analysis.md)**（含小时数、质量榜、综述分析、生态位）与 `data/quality-ranking.csv`。
 - 每个数据集的**论文/项目页/官方博客**见 **[docs/sources.md](docs/sources.md)** 与 `data/sources.csv`（面向 gated 数据“仅凭报告分析”）。
+- 综述论文框架（研究问题/六维分析/现有综述缺口/章节结构）见 **[docs/survey-outline.md](docs/survey-outline.md)**。
 
 ---
 
