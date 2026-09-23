@@ -1,0 +1,88 @@
+name,org,country,year,scale,view,modalities,access,link,verified
+EgoSuite-Open100K,光轮智能 Lightwheel,CN,2026,100000h / 15000 scenes,head+wrist,hand21+body+depth+semantic,open,https://egosuite100k.lightwheel.ai/,true
+10Kh RealOmni-Open,简智机器人 GenRobot,CN,2026,>10000h / ~1M clips,mono,visual/depth/tactile/pose,open,https://huggingface.co/datasets/genrobot2025/10Kh-RealOmin-OpenData,true
+Gen Ego Data (Gen-EgoData),简智机器人 GenRobot,CN,2026,500 samples / 4.23h (growing),mono+SLAM,full-modality (world model),open,https://genrobot.ai/data/assets,true
+EgoLive 人类第一视角,京东 JoyAI,CN,2026,first batch (plan 5M h/yr),mono (JoyEgoCam),visual+spatial,open,https://www.jdcloud.com,false
+WIYH (World In Your Hands),它石智航 TARS,CN,2025,>100k human videos / 40+ tasks,mono,VLTA (vision-lang-tactile-action),open,https://wiyh.tars-ai.com/,true
+SynData,灵初智能 PsiBot,CN,2026,>100k h collected / 1000h open,mono/hand,visual+lang+joint+tactile,open,https://huggingface.co/datasets/PsiBotAI/SynData,true
+EgoRobo-data,伊格具身数据 EgoRobo,CN,2026,industrial-scale (growing),mono,behavior data,open,https://github.com/EgoRobo-Data/EgoRobo-data,true
+AgiBot World (Alpha/Beta),智元机器人 AgiBot,CN,2024,1M trajectories,robot head+2 wrist (non-human),RGB-D/tactile/joint,open,https://github.com/OpenDriveLab/AgiBot-World,true
+RoboMIND,北京人形机器人创新中心,CN,2024,107k->400k+ trajectories,robot multi-view,RGB-D/joint,open,https://modelscope.cn,false
+Aligned DexWorld,跨维智能 DexForce,CN,2026,large,human->sim->real,spatio-temporal aligned,open,,false
+XRZero-G0,自变量机器人 X2Robotics,CN,2026,2000+,head+multi-view,visual/pose,open,,false
+ZODA,诺亦腾,CN,2026,plan 600h,full-body,body/object,open,,false
+LARYBench,美团 LongCat,CN,2026,benchmark+data,human video->action,video/action repr,open,,false
+RoVid-X,字节 Seed + PKU,CN,2026,large,robot video gen,video,open,,false
+Ego4D,Meta AI (FAIR),US,2022,3670h / 923 people,mono (some multi),RGB/audio/gaze/3D,request (DUA),https://ego4d-data.org,true
+Ego-Exo4D,Meta AI,US,2024,1286h,multi + exo,RGB/audio/gaze/pointcloud,request (DUA),https://ego-exo4d-data.org,true
+Nymeria,Meta AI,US,2024,~1100h / 264 people,multi (Aria+Quest3),body/RGB/IMU/pointcloud,request,https://www.projectaria.com/datasets/nymeria,true
+HOT3D,Meta AI,US,2024,833min / 3.7M images,multi (Quest3 stereo),RGB/gaze/hand/object,license,https://facebookresearch.github.io/hot3d/,true
+AEA,Meta (Project Aria),US,2024,143 seq,multi,RGB/SLAM/pointcloud/gaze,license,https://www.projectaria.com/datasets/aea/,true
+ADT,Meta,US,2023,200 seq,multi,RGB/IMU/6DoF/depth/seg,license,https://www.projectaria.com/datasets/adt/,true
+ASE,Meta,US,2024,synthetic,multi,RGB/depth/pose,license,https://www.projectaria.com/datasets/ase/,true
+EgoObjects,Meta,US,2023,9.2K+ videos,mono,RGB+bbox,open,https://github.com/facebookresearch/EgoObjects,true
+Ego-1K,Meta,US,2026,~1K multiview takes,multi,neural 3D/4D,open,https://huggingface.co/datasets/facebook/ego-1k,true
+EgoProactive / Pro2Bench,Meta,US,2026,700 recordings,mono (Aria),proactive assistance,open,https://huggingface.co/datasets/facebook/wearable-ai,true
+EgoDex,Apple,US,2025,829h / 194 tasks,mono (Vision Pro),RGB+3D hand/body,license CC-BY-NC-ND,https://github.com/apple/ml-egodex,true
+Open X-Embodiment,Google DeepMind + 21,US,2023,1M+ trajectories (incl human),mixed,RGB/actions/proprio,open,https://robotics-transformer-x.github.io,true
+HowToDIV,Google,US,2025,24h / 6636 QA,mono,video/audio/dialog,paper,https://arxiv.org/abs/2508.11192,true
+SANPO,Google,US,2023,701 clips,stereo,stereo RGB/depth/seg,open,https://google-research-datasets.github.io/sanpo_dataset/,true
+HoloAssist,Microsoft,US,2023,166-169h,mono+depth,RGB/depth/hand/gaze/IMU,open,https://holoassist.github.io/,true
+SynthEgo,Microsoft,US,2024,60k synthetic images,stereo,synthetic stereo RGB,paper,https://arxiv.org/abs/2401.14785,true
+DreamDojo / DexMimicGen,NVIDIA,US,2024,44k h / 21k demos,mono/sim,RGB/actions,code open,https://dreamdojo-world.github.io,true
+EgoEdit,Snap Research,US,2025,100k editing pairs,mono,video editing,open,https://snap-research.github.io/EgoEdit,true
+Egocentric-10K,Build AI,US,2025,10000h / 1.08B frames,mono (factory),RGB/actions,open,https://huggingface.co/datasets/egocentric-10k,false
+comma2k19 / comma10k,comma.ai,US,2018,33h / 10k images,mono driving,RGB/GPS/IMU/CAN,open,https://github.com/commaai/comma2k19,true
+Waymo Open Dataset,Waymo,US,2020,~11h segments,multi-cam (car),5 cameras/LiDAR,register,https://waymo.com/open,true
+EgoMimic,Georgia Tech + Stanford,US,2024,hours,head(Aria)+wrist,RGB/hand pose/actions,open,https://egomimic.github.io/,true
+UMI,Stanford et al,US,2024,demo-scale,wrist mono,RGB/gripper/IMU,open hw,https://umi-gripper.github.io/,true
+DexUMI,Stanford/Columbia/NVIDIA,US,2025,demo-scale,wrist mono+tactile,RGB/tactile/hand,open,https://dex-umi.github.io/,true
+Open-TeleVision,UCSD/MIT,US,2024,demo,VR stereo,stereo VR/actions,open code,https://robot-tv.github.io/,true
+Ego-OSCAR (550h),open community,US,2026,~550h/camera,stereo+IMU,stereo RGB/IMU/3D hands/captions,open Apache-2.0,https://arxiv.org/abs/2608.08285,true
+EgoViz-120,humaidtech,-,2026,120h,stereo+dual wrist,stereo RGB/depth/IMU/3D hand,open,https://github.com/humaidtech/EgoViz-120,false
+ego-stereo-cn-v1,10K HoursData,CN,2026,claimed 10K h,stereo,stereo RGB (LeRobot),open,https://github.com/TateZhouSiu/ego-stereo-cn-v1-tools,false
+UnrealEgo / UnrealEgo2 / RW,MPI + Keio,DE,2022,large synthetic + real,stereo fisheye,stereo RGB/3D pose,open,https://4dqv.mpi-inf.mpg.de/UnrealEgo/,true
+EgoCap,ETH Zurich,CH,2016,-,stereo fisheye,stereo RGB/mocap,open,https://arxiv.org/abs/1609.07306,true
+Ego3DPose,KAIST,KR,2023,-,binocular,stereo RGB/3D pose,code open,https://github.com/tho-kn/Ego3DPose,false
+EgoGlass,Univ. Adelaide,AU,2021,multi-subject,dual body cameras,ego RGB/3D joints,open,https://github.com/FloralZhao/EgoGlass,true
+EgoEVHands,Zhejiang Univ,CN,2026,5419 seq,stereo event,event stereo/2D-3D hand,to release,https://github.com/ZJUWang01/EgoEV-HandPose,false
+EventKitchen,TU Delft,NL,2026,5.5h,stereo event+RGB-D,event/RGB/depth/IMU,paper,https://arxiv.org/abs/2608.04865,false
+EPIC-KITCHENS-100,Univ. Bristol,UK,2021,100h / 90k segments,mono,RGB/audio/segments,open,https://epic-kitchens.github.io/,true
+HD-EPIC,Univ. Bristol,UK,2025,41h,mono (Aria),RGB/audio/gaze/depth/VQA,open CC-BY-NC,https://hd-epic.github.io/,true
+EgoLife,EvolvingLMMs-Lab,CN,2025,266-300h,multi (Aria),RGB/audio/mmWave,open,https://egolife-ai.github.io/,true
+Charades-Ego,AI2 / CMU,US,2018,paired ego/exo,mono,RGB/actions,open,https://prior.allenai.org/projects/charades-ego,true
+EgoExoLearn,OpenGVLab,CN,2024,120h,ego+exo,RGB/annotations,open,https://github.com/OpenGVLab/EgoExoLearn,true
+EgoVid-5M,-,-,2024,5M clips,mono,video/actions/poses,open,https://egovid.github.io/,true
+Ropedia Xperience-10M,Ropedia,-,2026,10M multi-stream,multi,6 RGB/depth/pose/mocap,open,https://huggingface.co/datasets/ropedia-ai/xperience-10m,true
+Open-AoE,Ant Group,CN,2026,~2000h,mono,RGB/MANO/text,open,https://github.com/ant-research/Open-AoE,true
+HumanNet,-,-,2026,~1M h (ego+exo),mixed,human-centric video,paper,https://arxiv.org/abs/2605.06747,true
+HOI4D,Tsinghua et al,CN,2022,2.4M frames / 4k seq,mono RGB-D,RGB-D/hand/3D object,open,https://hoi4d.github.io/,true
+OakInk / OakInk2,Tsinghua / PKU,CN,2022,100+ objects,multi,RGB-D/hand/object,license,https://github.com/oakink/OakInk2,true
+ARCTIC,ETH + MPI,CH,2023,2.1M frames,multi,RGB/depth/MANO/contact,login,https://arctic.is.tue.mpg.de/,true
+AssemblyHands,Meta,US,2023,3M images,mono,3D hand pose,open,https://assemblyhands.github.io/,true
+H2O,ETH Zurich,CH,2021,100K+ frames,mono,two-hand interaction,open,https://h2odataset.ethz.ch/,true
+EgoBody,ETH Zurich,CH,2022,125 seq,multi,RGB-D/gaze/SMPL-X,request,https://egobody.ethz.ch/,true
+FPHA,-,-,2018,1175 RGB-D seq,mono,hand pose+action,open,https://guiggh.github.io/publications/first-person-hands/,true
+Touch and Go,-,-,2022,12K+ vis-tactile,mono,vision+tactile,open,https://touch-and-go.github.io/,true
+VISOR,Univ. Bristol,UK,2022,EPIC + masks,mono,segmentation/HOI,open,https://epic-kitchens.github.io/VISOR/,true
+EgoHOS,-,-,2022,11K+ images,mono,hand-object segmentation,open,https://github.com/owenzlz/EgoHOS,true
+EgoTouch,-,-,2026,1891 episodes,mono,tactile HOI,open,https://huggingface.co/datasets/zhenyuxie-zhzh/EgoTouch_hdf5,true
+DexYCB,NVIDIA/multi,US,2021,grasp dataset,multi,hand-object grasp,open,https://dex-ycb.github.io/,true
+EgoDex-R,-,-,2026,4.3M RGB-D frames,mono,hand-object pose,paper,https://arxiv.org/abs/2606.08057,true
+EgoSchema,-,-,2023,250+h / 5k QA,mono,long video QA,open,https://egoschema.github.io/,true
+EgoClip,NUS ShowLab,SG,2022,3.8M clip-text,mono,video-language,open,https://github.com/showlab/EgoVLP,true
+EgoTaskQA,-,-,2022,~2k videos / 40k QA,mono,causal & task QA,open,https://sites.google.com/view/egotaskqa,true
+EgoThink / VidEgoThink,-,-,2024,12 dimensions QA,mono,egocentric thinking,open,https://arxiv.org/abs/2311.15596,true
+EgoMonth,-,-,2026,301h / 1443 QA,mono,long-term memory,open,https://huggingface.co/datasets/anonymous-egomonth/egomonth-dataset,true
+EgoMemReason,-,-,2026,500 MCQ,mono,week-long memory,open,https://huggingface.co/datasets/Ted412/EgoMemReason,true
+SuperMemory-VQA,OSU,US,2026,52.9h / 4853 QA,mono,Aria memory QA,open,https://huggingface.co/datasets/OSU-AIoT-MLSys-Lab/SuperMemory-VQA,true
+EgoStream,-,-,2026,2250 Q / 8528 evals,mono,streaming memory,open,https://saroo25.github.io/Egostream/,true
+EgoSAT,-,-,2026,165h / 4.8k QA,mono,streaming interaction,open,https://leiyj23.github.io/EgoSAT/,true
+Causal-Plan-1M,THUSI-Lab,CN,2026,1M QA / 22.2k clips,mono,planning QA,open,https://huggingface.co/datasets/anonymous-causal-plan/Causal_Plan,true
+Assembly101,-,-,2022,513h multi-view,multi,procedural assembly,license,https://assembly-101.github.io/,true
+CaptainCook4D,-,-,2024,cooking + 4D errors,mono,procedural errors,open,https://github.com/CaptainCook4D/CaptainCook4D,true
+EgoOops,-,-,2024,mistake detection,mono,procedural mistakes,open,https://github.com/Y-Haneji/EgoOops-annotations,true
+IndustReal,-,-,2024,~6h industrial,mono,procedure/errors,open,https://timschoonbeek.github.io/industreal.html,true
+EgoProceL,-,-,2022,62 videos / 16 tasks,mono,procedure learning,open,https://github.com/Sid2697/EgoProceL-egocentric-procedure-learning,true
+EgoVerse,GaTech RL2,US,2026,1362h / ~80k episodes,robot/mono,manipulation,open,https://egoverse.ai/,true
+HumanEgo,-,-,2026,Aria demonstrations,mono,human-to-robot,open,https://humanego-ai.github.io/,true
