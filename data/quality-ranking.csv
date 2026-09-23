@@ -1,0 +1,65 @@
+rank,quality_score,hours,name,org,category,view,access
+1,63.9,100000.0,EgoSuite-Open100K,光轮智能 Lightwheel,manipulation/HOI,head+wrist,request
+2,61.5,550.0,Ego-OSCAR (stereo-550),fpvlabs,stereo,stereo + IMU,gated
+3,60.8,120.0,EgoViz-120,humaidtech,stereo,stereo + dual wrist,open
+4,59.9,166.0,HoloAssist,Microsoft,procedural,mono+depth,open
+5,58.5,1800.0,Gen-HumanEgo,简智机器人 GenRobot,manipulation/HOI,multi (6-cam DAS-Ego),open
+6,54.7,10000.0,10Kh RealOmni-Open,简智机器人 GenRobot,manipulation/HOI,mono,gated
+7,54.2,3670.0,Ego4D,Meta AI,general,mono (some multi),request
+8,53.9,1100.0,Nymeria,Meta,general,multi (Aria+Quest3),open
+9,53.6,300.0,EgoLife,EvolvingLMMs-Lab,memory/long-form,multi (Aria),open
+10,53.2,1000.0,SynData,灵初智能 PsiBot,manipulation/HOI,hand/mono,open
+11,51.2,0,Ropedia Xperience-10M,Ropedia,world-model,multi,gated
+12,51.1,150.0,ACE-Data-0,ACE Robotics,manipulation/HOI,mono/exo,open
+13,50.1,2000.0,Open-AoE,Ant Group,manipulation/HOI,mono,open
+14,49.6,829.0,EgoDex,Apple,manipulation/HOI,mono (Vision Pro),open
+15,49.4,0,ADT (Aria Digital Twin),Meta,3D/scene,multi,open
+16,49.4,513.0,Assembly101,cvml-nus,procedural,multi,open
+17,49.0,13.9,HOT3D,Meta,manipulation/HOI,multi (Quest3 stereo),open
+18,48.7,0,AEA (Aria Everyday Activities),Meta,general,multi,open
+19,48.2,10000.0,Egocentric-10K,Build AI,general,mono (factory),gated
+20,47.2,0,EgoDemo,光轮智能 Lightwheel,manipulation/HOI,head+wrist,gated
+21,46.1,0,epic-contact,-,manipulation/HOI,mono,open
+22,46.1,1286.0,Ego-Exo4D,Meta AI,general,multi + exo,request
+23,46.0,0,EgoPro,光轮智能 Lightwheel,manipulation/HOI,head+wrist,gated
+24,44.3,0,AgiBotWorld-Beta,智元机器人 AgiBot,robot (non-human),robot head+2 wrist (non-human),gated
+25,43.3,0,EgoMimic,Georgia Tech + Stanford,manipulation/HOI,head(Aria)+wrist,open
+26,43.3,0,DexUMI,Stanford/Columbia/NVIDIA,manipulation/HOI,wrist mono+tactile,open
+27,42.5,0,Ego-1K,Meta,3D/scene,multi,gated
+28,42.4,41.0,HD-EPIC,Univ. Bristol,VQA,mono (Aria),open
+29,40.7,0,WIYH (World In Your Hands),它石智航 TARS,world-model,mono,open
+30,40.7,0,SANPO,Google,stereo,stereo,open
+31,40.5,4.2,Gen-EgoData (GenRobot),简智机器人 GenRobot,world-model,mono + ego-SLAM,open
+32,40.1,0,ego-stereo-cn-v1,tatezhou,stereo,stereo (LeRobot),open
+33,39.1,4.2,Gen-EgoData (JD),京东 JoyAI,world-model,mono + ego-SLAM,open
+34,38.6,120.0,EgoExoLearn,OpenGVLab (Shanghai AI Lab),procedural,ego+exo,open
+35,38.2,0,HA-Ego (ego500),Human Archive,manipulation/HOI,multi/head+wrist,gated
+36,38.0,0,interpet4d,-,general,multi,open
+37,37.7,0,HOI4D,Tsinghua et al,manipulation/HOI,mono RGB-D,open
+38,37.6,0,EgoTouch,-,manipulation/HOI,mono,open
+39,36.9,0,EgoFun3D,SFU,3D/scene,mono,open
+40,36.9,100.0,Ego-METAS,-,action,mono,open
+41,36.4,100.0,EPIC-KITCHENS-100,Univ. Bristol,action,mono,open
+42,36.0,301.0,EgoMonth,-,memory/long-form,mono,open
+43,35.6,0,EgoTactile,-,manipulation/HOI,mono,open
+44,35.2,100.0,SABER-10K,DreamVu,manipulation/HOI,mono/retail,gated
+45,34.7,32.0,EgoExo-Fitness,iSEE Lab,action,ego+exo,gated
+46,34.7,0,UMI,Stanford et al,manipulation/HOI,wrist mono,open
+47,34.1,52.9,SuperMemory-VQA,OSU,memory/long-form,mono,open
+48,33.8,0,hrdexdb,-,manipulation/HOI,mono,open
+49,33.4,0,PRISM-100K,DreamVu,3D/scene,mono/retail,gated
+50,30.3,0,GameplayQA,HATS-ICT,VQA,synthetic,open
+51,30.1,0,Causal-Plan-1M,THUSI-Lab,VQA,mono,open
+52,29.9,0,EgoSPT,-,manipulation/HOI,mono,open
+53,29.6,0,Open-TeleVision,UCSD/MIT,manipulation/HOI,VR stereo,open
+54,28.8,0,EgoServe,-,procedural,mono,open
+55,28.7,0,sg-ego,-,3D/scene,mono,open
+56,28.4,0,EgoMemReason,-,memory/long-form,mono,open
+57,28.1,0,EgoCoT-Bench,-,VQA,mono,open
+58,27.7,0,Ego2Web,-,VQA,mono,open
+59,27.3,0,EgoProactive / Pro2Bench,Meta,procedural,mono (Aria),gated
+60,27.0,0,OVO-S-Bench,-,VQA,mono,open
+61,26.6,0,EgoObjects,Meta,detection,mono,open
+62,26.6,0,Charades-Ego,AI2 / CMU,action,mono,open
+63,26.6,0,Open X-Embodiment,Google DeepMind + 21,robot (non-human),mixed,open
+64,25.8,0,EgoCross,-,VQA,mono,gated

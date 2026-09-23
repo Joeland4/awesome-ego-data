@@ -39,6 +39,13 @@ Verified open & requestable egocentric human datasets, with precise release date
 | 其中**双目 / 立体 / 头+腕** | **5** |
 | 已剔除（无数据仓库 / 仅营销） | 见文末 |
 
+### 规模与质量速览
+
+- **已解析小时数合计 ≈ 134,353 h（≈15.3 年）**，是下界（Gen-HumanEgo 1,800h 等未计入）。
+- **规模被操作数据垄断**：manipulation/HOI 占 86% 时长；双目+VQA+世界模型合计 <1%。
+- **质量**：按「规模/模态/标注/视角/开放度/采用度」6 维评分（0–100），最高仅 63.9（光轮 EgoSuite），说明**没有全能数据集**。
+- 详见 **[docs/analysis.md](docs/analysis.md)**（含小时数、质量榜、综述分析、生态位）与 `data/quality-ranking.csv`。
+
 ---
 
 ## 📈 趋势与分类统计
