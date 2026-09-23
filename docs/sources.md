@@ -70,3 +70,13 @@
 | Open-TeleVision | UCSD/MIT | [link](https://arxiv.org/abs/2407.01512) | [link](https://robot-tv.github.io/) | - | paper + site | CoRL 2024 |
 | UnrealEgo | MPI + Keio | [link](https://arxiv.org/abs/2208.01633) | [link](https://4dqv.mpi-inf.mpg.de/UnrealEgo/) | - | paper + site | CVPR 2022 |
 | EgoCap | ETH Zurich | [link](https://arxiv.org/abs/1609.07306) | [link](https://arxiv.org/abs/1609.07306) | - | paper | SIGGRAPH Asia 2016 |
+| FoldPlanet-500 | 上海星际硅途 StellarNex | - | [link](https://stellarnexrobotics.com/) | [link](https://huggingface.co/datasets/stellarnexrobotics/FoldPlanet-500) | HF card | clothes folding; mocap+VQA+CoT |
+| EgoSteer-RealWorld | EgoSteer | - | [link](https://huggingface.co/datasets/EgoSteer/EgoSteer-RealWorld) | - | HF card | bimanual teleop |
+| wuji_ego_mint | wuji | - | [link](https://huggingface.co/datasets/ZZJAsher/wuji_ego_mint) | - | HF card | MANO hands; non-video |
+| Egocentric-100K | Build AI | - | [link](https://huggingface.co/datasets/builddotai/Egocentric-100K) | - | HF card | 100K factory |
+| EgoHTR | ETH legged robotics | [link](https://arxiv.org/abs/2607.13472) | [link](https://egohtr.github.io/) | - | paper + HF | 4D human-terrain |
+| EgoDex-LeRobot-v3.0 | griffinlabs | [link](https://arxiv.org/abs/2505.11709) | [link](https://github.com/apple/ml-egodex) | - | conversion + HF | EgoDex LeRobot |
+| EgoExo-Synthetic | - | - | [link](https://huggingface.co/datasets/QuanjianSong/EgoExo-Synthetic) | - | HF card | ego-exo synthetic |
+| EgoBrain-Mini | ut-vision | - | [link](https://huggingface.co/datasets/ut-vision/EgoBrain-Mini) | - | HF card |  |
+| EgoPAT3Dv2 | ai4ce | [link](https://arxiv.org/abs/2203.09364) | [link](https://github.com/ai4ce/EgoPAT3D) | - | paper + HF | 3D action target |
+| EgoThink | - | [link](https://arxiv.org/abs/2311.15596) | [link](https://github.com/OpenGVLab/EgoThink) | - | paper + HF |  |

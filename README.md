@@ -31,10 +31,10 @@ Verified open & requestable egocentric human datasets, with precise release date
 
 | 指标 | 数量 |
 |---|---|
-| 收录（有真实数据仓库/明确申请入口） | **64** |
-| └ HuggingFace 公开可直接下载 (`open`) | **35** |
-| └ HuggingFace 需申请 (`gated`) | **14** |
-| └ 官方 GitHub / 数据门户 | **12** |
+| 收录（有真实数据仓库/明确申请入口） | **74** |
+| └ HuggingFace 仓库 | **59** |
+| └ 公开可直接下载 (`open`) | **54** |
+| └ 需申请 (`gated`) | **17** |
 | └ 官网申请 / DUA (`request`) | **3** |
 | 其中**双目 / 立体 / 头+腕** | **5** |
 | 已剔除（无数据仓库 / 仅营销） | 见文末 |
@@ -130,6 +130,9 @@ Verified open & requestable egocentric human datasets, with precise release date
 | Gen-EgoData | 京东 JoyAI | 2026-08-10 | 500 / 4.23 h | 单目+SLAM | 114 | https://huggingface.co/datasets/jdopensource/Gen-EgoData | CC-BY-SA-4.0 |
 | **SynData** | 灵初智能 PsiBot | 2026-04-21 | 开源 1,000 h | 手部 | 13,557 | https://huggingface.co/datasets/PsiBotAI/SynData | CC-BY-4.0 |
 | **WIYH** | 它石智航 TARS | 2026-03-25 | >10 万条 | 单目 | 12,066 | https://huggingface.co/datasets/tars-robotics/WIYH | CC-BY-NC-4.0 |
+| **FoldPlanet-500（折叠星球）** | 上海星际硅途 StellarNex | 2025-10-14 | 500+ h 叠衣 | 多视角 | 72 | https://huggingface.co/datasets/stellarnexrobotics/FoldPlanet-500 | - |
+| EgoSteer-RealWorld | EgoSteer | 2026-09-15 | 10M–100M | 双臂 | 5,218 | https://huggingface.co/datasets/EgoSteer/EgoSteer-RealWorld | Apache-2.0 |
+| wuji_ego_mint | wuji | 2026-08-16 | 100M–1B | 单目 | 10,864 | https://huggingface.co/datasets/ZZJAsher/wuji_ego_mint | MIT |
 | **EgoViz-120** | humaidtech | 2026-08-28 | 120 h | **双目+双腕** | 174 | https://huggingface.co/datasets/humaidtech/EgoViz-120 | CC-BY-4.0 |
 | **ego-stereo-cn-v1** | tatezhou | 2026-08-22 | <1K | **双目** | 338 | https://huggingface.co/datasets/tatezhou/ego-stereo-cn-v1 | CC-BY-NC-4.0 |
 | ACE-Data-0 | ACE Robotics | 2026-09-08 | 150 h / 75K | 单目/外视角 | - | https://huggingface.co/datasets/ACERobotics/ACE-Data-0 | - |
@@ -166,7 +169,7 @@ Verified open & requestable egocentric human datasets, with precise release date
 | 数据集 | 机构 | 日期 | 规模 | 视角 | 下载 | 入口 | 类型 |
 |---|---|---|---|---|---|---|---|
 | 10Kh RealOmni-Open | 简智机器人 GenRobot | 2026-01-06 | >10,000 h | 单目 | - | https://huggingface.co/datasets/genrobot2025/10Kh-RealOmin-OpenData | gated |
-| EgoSuite-Open100K | 光轮智能 Lightwheel | 2026-08-20 | 100,000 h | 头+腕 | - | https://egosuite100k.lightwheel.ai/ | request |
+| EgoSuite-Open100K | 光轮智能 Lightwheel | 2026-08-20 | 100,000 h | 头+腕 | - | https://huggingface.co/collections/LightwheelAI/egosuite-open100k | gated(collection: EgoStandard/EgoPro/EgoDemo) |
 | EgoDemo | 光轮智能 Lightwheel | 2026-08-07 | - | 头+腕 | 148,293 | https://huggingface.co/datasets/LightwheelAI/EgoDemo | gated(manual) |
 | EgoPro | 光轮智能 Lightwheel | 2026-08-07 | - | 头+腕 | 38,710 | https://huggingface.co/datasets/LightwheelAI/EgoPro | gated(manual) |
 | **Ego-OSCAR (stereo-550)** | fpvlabs | 2026-07-30 | ~550 h/相机 | **双目+IMU** | 234,370 | https://huggingface.co/datasets/fpvlabs/stereo-550 | gated(auto) |

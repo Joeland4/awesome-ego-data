@@ -65,3 +65,13 @@ DexUMI,Stanford/Columbia/NVIDIA,https://arxiv.org/abs/2505.21864,https://dex-umi
 Open-TeleVision,UCSD/MIT,https://arxiv.org/abs/2407.01512,https://robot-tv.github.io/,-,paper + site,CoRL 2024
 UnrealEgo,MPI + Keio,https://arxiv.org/abs/2208.01633,https://4dqv.mpi-inf.mpg.de/UnrealEgo/,-,paper + site,CVPR 2022
 EgoCap,ETH Zurich,https://arxiv.org/abs/1609.07306,https://arxiv.org/abs/1609.07306,-,paper,SIGGRAPH Asia 2016
+FoldPlanet-500,上海星际硅途 StellarNex,-,https://stellarnexrobotics.com/,https://huggingface.co/datasets/stellarnexrobotics/FoldPlanet-500,HF card,clothes folding; mocap+VQA+CoT
+EgoSteer-RealWorld,EgoSteer,-,https://huggingface.co/datasets/EgoSteer/EgoSteer-RealWorld,-,HF card,bimanual teleop
+wuji_ego_mint,wuji,-,https://huggingface.co/datasets/ZZJAsher/wuji_ego_mint,-,HF card,MANO hands; non-video
+Egocentric-100K,Build AI,-,https://huggingface.co/datasets/builddotai/Egocentric-100K,-,HF card,100K factory
+EgoHTR,ETH legged robotics,https://arxiv.org/abs/2607.13472,https://egohtr.github.io/,-,paper + HF,4D human-terrain
+EgoDex-LeRobot-v3.0,griffinlabs,https://arxiv.org/abs/2505.11709,https://github.com/apple/ml-egodex,-,conversion + HF,EgoDex LeRobot
+EgoExo-Synthetic,-,-,https://huggingface.co/datasets/QuanjianSong/EgoExo-Synthetic,-,HF card,ego-exo synthetic
+EgoBrain-Mini,ut-vision,-,https://huggingface.co/datasets/ut-vision/EgoBrain-Mini,-,HF card,
+EgoPAT3Dv2,ai4ce,https://arxiv.org/abs/2203.09364,https://github.com/ai4ce/EgoPAT3D,-,paper + HF,3D action target
+EgoThink,-,https://arxiv.org/abs/2311.15596,https://github.com/OpenGVLab/EgoThink,-,paper + HF,
