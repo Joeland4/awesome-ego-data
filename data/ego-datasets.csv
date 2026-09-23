@@ -1,65 +1,65 @@
-name,org,country,year,scale,view,modalities,access,data_link,license
-Gen-HumanEgo,简智机器人 GenRobot,CN,2026,1800+ hours,multi (6-cam DAS-Ego),RGB/hand/body/SLAM/6DoF,open,https://huggingface.co/datasets/genrobot2025/Gen-HumanEgo,CC-BY-SA-4.0
-Gen-EgoData (GenRobot),简智机器人 GenRobot,CN,2026,500 samples / 4.23h,mono + ego-SLAM,RGB/depth/pose,open,https://huggingface.co/datasets/genrobot2025/Gen-EgoData,CC-BY-SA-4.0
-Gen-EgoData (JD),京东 JoyAI,CN,2026,500 samples / 4.23h,mono + ego-SLAM,RGB/depth/pose,open,https://huggingface.co/datasets/jdopensource/Gen-EgoData,CC-BY-SA-4.0
-10Kh RealOmni-Open,简智机器人 GenRobot,CN,2026,>10000h / ~1M clips,mono,RGB/depth/tactile/pose,gated,https://huggingface.co/datasets/genrobot2025/10Kh-RealOmin-OpenData,-
-SynData,灵初智能 PsiBot,CN,2026,1000h open (100k collected),hand/mono,RGB/lang/joint/tactile,open,https://huggingface.co/datasets/PsiBotAI/SynData,CC-BY-4.0
-WIYH (World In Your Hands),它石智航 TARS,CN,2025,>100k videos / 40+ tasks,mono,VLTA (vision-lang-tactile-action),open,https://huggingface.co/datasets/tars-robotics/WIYH,CC-BY-NC-4.0
-EgoSuite-Open100K,光轮智能 Lightwheel,CN,2026,100000h / 15000 scenes,head+wrist,hand21+body+depth+semantic,request,https://egosuite100k.lightwheel.ai/,-
-EgoDemo,光轮智能 Lightwheel,CN,2026,-,head+wrist,RGB/hand/body,gated,https://huggingface.co/datasets/LightwheelAI/EgoDemo,-
-EgoPro,光轮智能 Lightwheel,CN,2026,-,head+wrist,RGB/hand/body,gated,https://huggingface.co/datasets/LightwheelAI/EgoPro,-
-EgoViz-120,humaidtech,-,2026,120h,stereo + dual wrist,stereo RGB/depth/IMU/3D hand/mcap,open,https://huggingface.co/datasets/humaidtech/EgoViz-120,CC-BY-4.0
-ego-stereo-cn-v1,tatezhou,CN,2026,<1K,stereo (LeRobot),stereo RGB/IMU/6DoF,open,https://huggingface.co/datasets/tatezhou/ego-stereo-cn-v1,CC-BY-NC-4.0
-Ego-OSCAR (stereo-550),fpvlabs,US,2026,~550h/camera,stereo + IMU,stereo RGB/IMU/3D hands/captions,gated,https://huggingface.co/datasets/fpvlabs/stereo-550,-
-ACE-Data-0,ACE Robotics,US,2026,150h / 75k episodes,mono/exo,RGB/depth/pose/audio/tactile,open,https://huggingface.co/datasets/ACERobotics/ACE-Data-0,-
-Open-AoE,Ant Group,CN,2026,~2000h,mono,RGB/MANO/text,open,https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h,-
-AgiBotWorld-Beta,智元机器人 AgiBot,CN,2025,1M trajectories,robot head+2 wrist (non-human),RGB-D/tactile/joint,gated,https://huggingface.co/datasets/agibot-world/AgiBotWorld-Beta,CC-BY-NC-SA-4.0
-EgoExoLearn,OpenGVLab (Shanghai AI Lab),CN,2024,120h,ego+exo,RGB/annotations,open,https://huggingface.co/datasets/hyf015/EgoExoLearn,-
-HoloAssist,Microsoft,US,2023,166h,mono+depth,RGB/depth/hand/gaze/IMU,open,https://huggingface.co/datasets/hyf015/holoassist,-
-EgoLife,EvolvingLMMs-Lab,CN,2025,266-300h,multi (Aria),RGB/audio/mmWave,open,https://huggingface.co/datasets/lmms-lab/EgoLife,-
-AEA (Aria Everyday Activities),Meta,US,2024,143 sequences,multi,RGB/SLAM/pointcloud/gaze,open,https://huggingface.co/datasets/projectaria/aria-everyday-activities,-
-ADT (Aria Digital Twin),Meta,US,2023,200 sequences,multi,RGB/IMU/6DoF/depth/seg,open,https://huggingface.co/datasets/projectaria/aria-digital-twin,-
-HOT3D,Meta,US,2024,833 min / 3.7M images,multi (Quest3 stereo),RGB/gaze/hand/object,open,https://huggingface.co/datasets/projectaria/hot3d,-
-Nymeria,Meta,US,2024,~1100h / 264 people,multi (Aria+Quest3),body/RGB/IMU/pointcloud,open,https://huggingface.co/datasets/projectaria/Nymeria,-
-EgoObjects,Meta,US,2023,9.2K+ videos,mono,RGB+bbox,open,https://github.com/facebookresearch/EgoObjects,-
-Ego-1K,Meta,US,2026,~1K multiview takes,multi,neural 3D/4D,gated,https://huggingface.co/datasets/facebook/ego-1k,-
-EgoProactive / Pro2Bench,Meta,US,2026,700 recordings,mono (Aria),proactive assistance,gated,https://huggingface.co/datasets/facebook/wearable-ai,-
-HA-Ego (ego500),Human Archive,-,2026,500+ clips,multi/head+wrist,RGB/hand,open,https://huggingface.co/datasets/humanarchive/ego500,-
-Egocentric-10K,Build AI,US,2025,10000h / 1.08B frames,mono (factory),RGB/actions,gated,https://huggingface.co/datasets/builddotai/Egocentric-10K,-
-PRISM-100K,DreamVu,-,2026,270K samples,mono/retail,RGB/pose,gated,https://huggingface.co/datasets/DreamVu/PRISM-100K,-
-SABER-10K,DreamVu,-,2026,100h / 44.8k samples,mono/retail,RGB/pose,gated,https://huggingface.co/datasets/DreamVu/SABER-10K,-
-EgoExo-Fitness,iSEE Lab,-,2024,32h / 1276 seq,ego+exo,RGB/pose,gated,https://huggingface.co/datasets/Lymann/EgoExo-Fitness,-
-EgoCross,-,-,2026,798 clips / 957 QA,mono,RGB/QA,gated,https://huggingface.co/datasets/myuniverse/EgoCross,-
-Ropedia Xperience-10M,Ropedia,-,2026,10M experiences,multi,6 RGB/depth/pose/mocap,gated,https://huggingface.co/datasets/ropedia-ai/xperience-10m,-
-EgoFun3D,SFU,-,2026,271 videos,mono,RGB/3D,open,https://huggingface.co/datasets/3dlg-hcvc/EgoFun3D,-
-EgoTouch,-,-,2026,1891 episodes,mono,tactile HOI,open,https://huggingface.co/datasets/zhenyuxie-zhzh/EgoTouch_hdf5,-
-EgoSPT,-,-,2026,11515 episodes,mono,RGB/action,open,https://huggingface.co/datasets/JackYFL233/EgoSPT,-
-EgoMonth,-,-,2026,301h / 1443 QA,mono,long-term memory,open,https://huggingface.co/datasets/anonymous-egomonth/egomonth-dataset,-
-EgoMemReason,-,-,2026,500 MCQ,mono,week-long memory,open,https://huggingface.co/datasets/Ted412/EgoMemReason,-
-SuperMemory-VQA,OSU,US,2026,52.9h / 4853 QA,mono,Aria memory QA,open,https://huggingface.co/datasets/OSU-AIoT-MLSys-Lab/SuperMemory-VQA,-
-Causal-Plan-1M,THUSI-Lab,CN,2026,1M QA / 22.2k clips,mono,planning QA,open,https://huggingface.co/datasets/anonymous-causal-plan/Causal_Plan,-
-EgoServe,-,-,2026,3k+ instances,mono,proactive assistance,open,https://huggingface.co/datasets/SitongGong/EgoServe,-
-EgoCoT-Bench,-,-,2026,351 videos / 3172 QA,mono,chain-of-thought QA,open,https://huggingface.co/datasets/DStardust/EgoCoT-Bench,-
-Ego2Web,-,-,2026,500 pairs,mono,web agent,open,https://huggingface.co/datasets/Shoubin/Ego2Web,-
-GameplayQA,HATS-ICT,-,2026,~2.4k QA,synthetic,POV gameplay QA,open,https://huggingface.co/datasets/wangyz1999/GameplayQA,-
-Ego-METAS,-,-,2026,100h / 5 modalities,mono,action segmentation,open,https://huggingface.co/datasets/Ego-METAS/Ego-METAS,-
-EgoTactile,-,-,2026,768 clips,mono,tactile/grasp pressure,open,https://huggingface.co/datasets/icml-2026-submission/EgoTactile,-
-epic-contact,-,-,2026,2.3k clips / 62.3k frames,mono,3D hand-object contact,open,https://huggingface.co/datasets/Sid2697/epic-contact,-
-sg-ego,-,-,2026,3.8M graphs,mono,scene graphs,open,https://huggingface.co/datasets/francescapistilli/sg-ego,-
-hrdexdb,-,-,2026,1.4k grasping trials,mono,dexterous grasp/tactile,open,https://huggingface.co/datasets/hahahataeyun/hrdexdb,-
-interpet4d,-,-,2026,6.8M frames,multi,human-pet interaction,open,https://huggingface.co/datasets/ohicarip/interpet4d,-
-OVO-S-Bench,-,-,2026,348 videos / 1680 QA,mono,streaming spatial QA,open,https://huggingface.co/datasets/kfkas/ovo-s-bench-ego4d-benchmark,-
-Ego4D,Meta AI,US,2022,3670h / 923 people,mono (some multi),RGB/audio/gaze/3D,request,https://ego4d-data.org,DUA
-Ego-Exo4D,Meta AI,US,2024,1286h,multi + exo,RGB/audio/gaze/pointcloud,request,https://ego-exo4d-data.org,DUA
-EPIC-KITCHENS-100,Univ. Bristol,UK,2021,100h / 90k segments,mono,RGB/audio/segments,open,https://epic-kitchens.github.io/,-
-HD-EPIC,Univ. Bristol,UK,2025,41h,mono (Aria),RGB/audio/gaze/depth/VQA,open,https://hd-epic.github.io/,CC-BY-NC
-Charades-Ego,AI2 / CMU,US,2018,paired ego/exo,mono,RGB/actions,open,https://prior.allenai.org/projects/charades-ego,-
-Assembly101,cvml-nus,-,2022,513h multi-view,multi,procedural assembly,open,https://huggingface.co/datasets/cvml-nus/assembly101,-
-HOI4D,Tsinghua et al,CN,2022,2.4M frames / 4k seq,mono RGB-D,RGB-D/hand/3D object,open,https://hoi4d.github.io/,-
-EgoDex,Apple,US,2025,829h / 194 tasks,mono (Vision Pro),RGB+3D hand/body,open,https://github.com/apple/ml-egodex,CC-BY-NC-ND
-Open X-Embodiment,Google DeepMind + 21,US,2023,1M+ trajectories (incl human),mixed,RGB/actions/proprio,open,https://robotics-transformer-x.github.io,-
-SANPO,Google,US,2023,701 clips,stereo,stereo RGB/depth/seg,open,https://google-research-datasets.github.io/sanpo_dataset/,-
-EgoMimic,Georgia Tech + Stanford,US,2024,hours,head(Aria)+wrist,RGB/hand pose/actions,open,https://egomimic.github.io/,-
-UMI,Stanford et al,US,2024,demo-scale,wrist mono,RGB/gripper/IMU,open,https://umi-gripper.github.io/,-
-DexUMI,Stanford/Columbia/NVIDIA,US,2025,demo-scale,wrist mono+tactile,RGB/tactile/hand,open,https://dex-umi.github.io/,-
-Open-TeleVision,UCSD/MIT,US,2024,demo,VR stereo,stereo VR/actions,open,https://robot-tv.github.io/,-
+name,org,country,date,category,scale,view,modalities,access,data_link,license,downloads
+Gen-HumanEgo,简智机器人 GenRobot,CN,2026-09-12,manipulation/HOI,1800+ hours,multi (6-cam DAS-Ego),RGB/hand/body/SLAM/6DoF,open,https://huggingface.co/datasets/genrobot2025/Gen-HumanEgo,CC-BY-SA-4.0,
+Gen-EgoData (GenRobot),简智机器人 GenRobot,CN,2026-03-14,world-model,500 samples / 4.23h,mono + ego-SLAM,RGB/depth/pose,open,https://huggingface.co/datasets/genrobot2025/Gen-EgoData,CC-BY-SA-4.0,545
+Gen-EgoData (JD),京东 JoyAI,CN,2026-08-10,world-model,500 samples / 4.23h,mono + ego-SLAM,RGB/depth/pose,open,https://huggingface.co/datasets/jdopensource/Gen-EgoData,CC-BY-SA-4.0,114
+10Kh RealOmni-Open,简智机器人 GenRobot,CN,2026-01-06,manipulation/HOI,>10000h / ~1M clips,mono,RGB/depth/tactile/pose,gated,https://huggingface.co/datasets/genrobot2025/10Kh-RealOmin-OpenData,-,
+SynData,灵初智能 PsiBot,CN,2026-04-21,manipulation/HOI,1000h open (100k collected),hand/mono,RGB/lang/joint/tactile,open,https://huggingface.co/datasets/PsiBotAI/SynData,CC-BY-4.0,13557
+WIYH (World In Your Hands),它石智航 TARS,CN,2026-03-25,world-model,>100k videos / 40+ tasks,mono,VLTA (vision-lang-tactile-action),open,https://huggingface.co/datasets/tars-robotics/WIYH,CC-BY-NC-4.0,12066
+EgoSuite-Open100K,光轮智能 Lightwheel,CN,2026-08-20,manipulation/HOI,100000h / 15000 scenes,head+wrist,hand21+body+depth+semantic,request,https://egosuite100k.lightwheel.ai/,-
+EgoDemo,光轮智能 Lightwheel,CN,2026-08-07,manipulation/HOI,-,head+wrist,RGB/hand/body,gated,https://huggingface.co/datasets/LightwheelAI/EgoDemo,-,148293
+EgoPro,光轮智能 Lightwheel,CN,2026-08-07,manipulation/HOI,-,head+wrist,RGB/hand/body,gated,https://huggingface.co/datasets/LightwheelAI/EgoPro,-,38710
+EgoViz-120,humaidtech,-,2026-08-28,stereo,120h,stereo + dual wrist,stereo RGB/depth/IMU/3D hand/mcap,open,https://huggingface.co/datasets/humaidtech/EgoViz-120,CC-BY-4.0,174
+ego-stereo-cn-v1,tatezhou,CN,2026-08-22,stereo,<1K,stereo (LeRobot),stereo RGB/IMU/6DoF,open,https://huggingface.co/datasets/tatezhou/ego-stereo-cn-v1,CC-BY-NC-4.0,338
+Ego-OSCAR (stereo-550),fpvlabs,US,2026-07-30,stereo,~550h/camera,stereo + IMU,stereo RGB/IMU/3D hands/captions,gated,https://huggingface.co/datasets/fpvlabs/stereo-550,-,234370
+ACE-Data-0,ACE Robotics,US,2026-09-08,manipulation/HOI,150h / 75k episodes,mono/exo,RGB/depth/pose/audio/tactile,open,https://huggingface.co/datasets/ACERobotics/ACE-Data-0,-,
+Open-AoE,Ant Group,CN,2026-07-07,manipulation/HOI,~2000h,mono,RGB/MANO/text,open,https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h,-,498169
+AgiBotWorld-Beta,智元机器人 AgiBot,CN,2025-02-11,robot (non-human),1M trajectories,robot head+2 wrist (non-human),RGB-D/tactile/joint,gated,https://huggingface.co/datasets/agibot-world/AgiBotWorld-Beta,CC-BY-NC-SA-4.0,102134
+EgoExoLearn,OpenGVLab (Shanghai AI Lab),CN,2024-08-07,procedural,120h,ego+exo,RGB/annotations,open,https://huggingface.co/datasets/hyf015/EgoExoLearn,-,3216
+HoloAssist,Microsoft,US,2025-06-25,procedural,166h,mono+depth,RGB/depth/hand/gaze/IMU,open,https://huggingface.co/datasets/hyf015/holoassist,-,12715
+EgoLife,EvolvingLMMs-Lab,CN,2025-02-26,memory/long-form,266-300h,multi (Aria),RGB/audio/mmWave,open,https://huggingface.co/datasets/lmms-lab/EgoLife,-,108742
+AEA (Aria Everyday Activities),Meta,US,2024-09-13,general,143 sequences,multi,RGB/SLAM/pointcloud/gaze,open,https://huggingface.co/datasets/projectaria/aria-everyday-activities,-,81
+ADT (Aria Digital Twin),Meta,US,2024-08-27,3D/scene,200 sequences,multi,RGB/IMU/6DoF/depth/seg,open,https://huggingface.co/datasets/projectaria/aria-digital-twin,-,171
+HOT3D,Meta,US,2024-09-17,manipulation/HOI,833 min / 3.7M images,multi (Quest3 stereo),RGB/gaze/hand/object,open,https://huggingface.co/datasets/projectaria/hot3d,-,168
+Nymeria,Meta,US,2024-09-19,general,~1100h / 264 people,multi (Aria+Quest3),body/RGB/IMU/pointcloud,open,https://huggingface.co/datasets/projectaria/Nymeria,-,282
+EgoObjects,Meta,US,2023-06-01,detection,9.2K+ videos,mono,RGB+bbox,open,https://github.com/facebookresearch/EgoObjects,-,
+Ego-1K,Meta,US,2026-01-29,3D/scene,~1K multiview takes,multi,neural 3D/4D,gated,https://huggingface.co/datasets/facebook/ego-1k,-,52679
+EgoProactive / Pro2Bench,Meta,US,2026-05-15,procedural,700 recordings,mono (Aria),proactive assistance,gated,https://huggingface.co/datasets/facebook/wearable-ai,-,2894
+HA-Ego (ego500),Human Archive,-,2026-08-07,manipulation/HOI,500+ clips,multi/head+wrist,RGB/hand,gated,https://huggingface.co/datasets/humanarchive/ego500,-,26
+Egocentric-10K,Build AI,US,2025-11-09,general,10000h / 1.08B frames,mono (factory),RGB/actions,gated,https://huggingface.co/datasets/builddotai/Egocentric-10K,-,69927
+PRISM-100K,DreamVu,-,2026-03-22,3D/scene,270K samples,mono/retail,RGB/pose,gated,https://huggingface.co/datasets/DreamVu/PRISM-100K,-,310
+SABER-10K,DreamVu,-,2026-04-02,manipulation/HOI,100h / 44.8k samples,mono/retail,RGB/pose,gated,https://huggingface.co/datasets/DreamVu/SABER-10K,-,20
+EgoExo-Fitness,iSEE Lab,-,2025-02-11,action,32h / 1276 seq,ego+exo,RGB/pose,gated,https://huggingface.co/datasets/Lymann/EgoExo-Fitness,-,247
+EgoCross,-,-,2025-10-16,VQA,798 clips / 957 QA,mono,RGB/QA,gated,https://huggingface.co/datasets/myuniverse/EgoCross,-,32
+Ropedia Xperience-10M,Ropedia,-,2026-03-11,world-model,10M experiences,multi,6 RGB/depth/pose/mocap,gated,https://huggingface.co/datasets/ropedia-ai/xperience-10m,-,96685
+EgoFun3D,SFU,-,2026-03-31,3D/scene,271 videos,mono,RGB/3D,open,https://huggingface.co/datasets/3dlg-hcvc/EgoFun3D,-,185
+EgoTouch,-,-,2026-05-24,manipulation/HOI,1891 episodes,mono,tactile HOI,open,https://huggingface.co/datasets/zhenyuxie-zhzh/EgoTouch_hdf5,-,6710
+EgoSPT,-,-,2026-05-14,manipulation/HOI,11515 episodes,mono,RGB/action,open,https://huggingface.co/datasets/JackYFL233/EgoSPT,-,36
+EgoMonth,-,-,2026-05-03,memory/long-form,301h / 1443 QA,mono,long-term memory,open,https://huggingface.co/datasets/anonymous-egomonth/egomonth-dataset,-,261
+EgoMemReason,-,-,2026-05-11,memory/long-form,500 MCQ,mono,week-long memory,open,https://huggingface.co/datasets/Ted412/EgoMemReason,-,118
+SuperMemory-VQA,OSU,US,2026-04-24,memory/long-form,52.9h / 4853 QA,mono,Aria memory QA,open,https://huggingface.co/datasets/OSU-AIoT-MLSys-Lab/SuperMemory-VQA,-,3378
+Causal-Plan-1M,THUSI-Lab,CN,2026-05-04,VQA,1M QA / 22.2k clips,mono,planning QA,open,https://huggingface.co/datasets/anonymous-causal-plan/Causal_Plan,-,747
+EgoServe,-,-,2026-06-27,procedural,3k+ instances,mono,proactive assistance,open,https://huggingface.co/datasets/SitongGong/EgoServe,-,181
+EgoCoT-Bench,-,-,2026-06-02,VQA,351 videos / 3172 QA,mono,chain-of-thought QA,open,https://huggingface.co/datasets/DStardust/EgoCoT-Bench,-,89
+Ego2Web,-,-,2026-03-22,VQA,500 pairs,mono,web agent,open,https://huggingface.co/datasets/Shoubin/Ego2Web,-,56
+GameplayQA,HATS-ICT,-,2026-03-24,VQA,~2.4k QA,synthetic,POV gameplay QA,open,https://huggingface.co/datasets/wangyz1999/GameplayQA,-,1000
+Ego-METAS,-,-,2026-05-02,action,100h / 5 modalities,mono,action segmentation,open,https://huggingface.co/datasets/Ego-METAS/Ego-METAS,-,506
+EgoTactile,-,-,2026-01-25,manipulation/HOI,768 clips,mono,tactile/grasp pressure,open,https://huggingface.co/datasets/HustleHard/EgoTactile,-,719
+epic-contact,-,-,2026-06-27,manipulation/HOI,2.3k clips / 62.3k frames,mono,3D hand-object contact,open,https://huggingface.co/datasets/Sid2697/epic-contact,-,6035
+sg-ego,-,-,2026-06-29,3D/scene,3.8M graphs,mono,scene graphs,open,https://huggingface.co/datasets/francescapistilli/sg-ego,-,173
+hrdexdb,-,-,2026-04-03,manipulation/HOI,1.4k grasping trials,mono,dexterous grasp/tactile,open,https://huggingface.co/datasets/hahahataeyun/hrdexdb,-,104
+interpet4d,-,-,2026-06-27,general,6.8M frames,multi,human-pet interaction,open,https://huggingface.co/datasets/ohicarip/interpet4d,-,2025
+OVO-S-Bench,-,-,2026-08-15,VQA,348 videos / 1680 QA,mono,streaming spatial QA,open,https://huggingface.co/datasets/kfkas/ovo-s-bench-ego4d-benchmark,-,27
+Ego4D,Meta AI,US,2022-06-01,general,3670h / 923 people,mono (some multi),RGB/audio/gaze/3D,request,https://ego4d-data.org,DUA,
+Ego-Exo4D,Meta AI,US,2024-06-01,general,1286h,multi + exo,RGB/audio/gaze/pointcloud,request,https://ego-exo4d-data.org,DUA,
+EPIC-KITCHENS-100,Univ. Bristol,UK,2021-01-01,action,100h / 90k segments,mono,RGB/audio/segments,open,https://epic-kitchens.github.io/,-
+HD-EPIC,Univ. Bristol,UK,2025-02-06,VQA,41h,mono (Aria),RGB/audio/gaze/depth/VQA,open,https://hd-epic.github.io/,CC-BY-NC,
+Charades-Ego,AI2 / CMU,US,2018-04-25,action,paired ego/exo,mono,RGB/actions,open,https://prior.allenai.org/projects/charades-ego,-,
+Assembly101,cvml-nus,-,2026-05-13,procedural,513h multi-view,multi,procedural assembly,open,https://huggingface.co/datasets/cvml-nus/assembly101,-,69350
+HOI4D,Tsinghua et al,CN,2022-06-01,manipulation/HOI,2.4M frames / 4k seq,mono RGB-D,RGB-D/hand/3D object,open,https://hoi4d.github.io/,-,
+EgoDex,Apple,US,2025-05-16,manipulation/HOI,829h / 194 tasks,mono (Vision Pro),RGB+3D hand/body,open,https://github.com/apple/ml-egodex,CC-BY-NC-ND,
+Open X-Embodiment,Google DeepMind + 21,US,2023-10-13,robot (non-human),1M+ trajectories (incl human),mixed,RGB/actions/proprio,open,https://robotics-transformer-x.github.io,-,
+SANPO,Google,US,2023-09-22,stereo,701 clips,stereo,stereo RGB/depth/seg,open,https://google-research-datasets.github.io/sanpo_dataset/,-,
+EgoMimic,Georgia Tech + Stanford,US,2024-10-30,manipulation/HOI,hours,head(Aria)+wrist,RGB/hand pose/actions,open,https://egomimic.github.io/,-,
+UMI,Stanford et al,US,2024-02-06,manipulation/HOI,demo-scale,wrist mono,RGB/gripper/IMU,open,https://umi-gripper.github.io/,-,
+DexUMI,Stanford/Columbia/NVIDIA,US,2025-05-27,manipulation/HOI,demo-scale,wrist mono+tactile,RGB/tactile/hand,open,https://dex-umi.github.io/,-,
+Open-TeleVision,UCSD/MIT,US,2024-07-01,manipulation/HOI,demo,VR stereo,stereo VR/actions,open,https://robot-tv.github.io/,-,
